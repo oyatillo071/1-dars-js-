@@ -5,6 +5,10 @@
   font-family: monospace, sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
 .container {
   max-width: 1800px;
   width: 100%;
@@ -16,12 +20,13 @@
 }
 
 .task--wrapper {
+  background-color: #fff;
   margin: 200px 50px;
   position: relative;
   max-width: 40%;
   gap: 40px;
   width: 100%;
-  border: 5px dotted rgb(185, 185, 185);
+  border: 25px dotted rgb(185, 185, 185);
   border-radius: 12px;
   padding: 50px 40px;
   display: flex;
@@ -38,7 +43,7 @@
 
 h2 {
   font-size: 80px;
-  color: rgb(2, 49, 61);
+  color: rgb(255, 255, 255);
   margin-block: 40px;
   position: absolute;
   top: -180px;
@@ -68,8 +73,8 @@ label, h4 {
 span {
   position: absolute;
   bottom: 180px;
-  font-size: 50px;
-  left: 5px;
-  top: 220px;
+  font-size: 45px;
+  left: 20px;
+  top: 260px;
   color: black;
 }/*# sourceMappingURL=style.css.map */

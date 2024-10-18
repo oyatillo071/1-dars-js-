@@ -650,9 +650,7 @@ document.getElementById("twfive--btn").addEventListener("click", function () {
 // ekanligini tekshiring.
 document.getElementById("twsix--btn").addEventListener("click", function () {
   let twsixArr =
-    Math.trunc(Math.random() * 10) + 1 >= 5
-      ? randNum(8, 90)
-      : randNum(9, 500);
+    Math.trunc(Math.random() * 10) + 1 >= 5 ? randNum(8, 90) : randNum(9, 500);
 
   let twsixAns = "Massiv:<br>" + twsixArr;
 
